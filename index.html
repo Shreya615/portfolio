@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Shreya.</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                           <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                           </a> 
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a> 
+                         </li>
+                         <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-minus-alt nav__icon"></i> Skills
+                            </a> 
+                         </li>
+                         <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Awards & Activities
+                        
+                            </a> 
+                         </li>
+                         <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a> 
+                         </li>
+                         <li class="nav__item">
+                            <a href="#contactme" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a> 
+                         </li>
+                    </ul>
+                    <i class="uil uil-clock nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!--Theme change button-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                  <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                  </div>
+    
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                       <div class="home__social">
+                        <a href="https://www.linkedin.com/in/shreya-singh-5386461a5/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+
+                        </a>
+
+                        <a href="https://leetcode.com/shreya_singh04/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-code-branch"></i>
+                            
+                        </a>
+
+                        <a href="https://www.codingninjas.com/codestudio/profile/cce2ab97-ce01-4658-87c1-ab0067708751" target="_blank" class="home__social-icon">
+                            <i class="uil uil-ninja"></i>
+                                
+                            </a>
+                            
+                        </a>
+
+                        <a href="https://github.com/Shreya615" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>  
+                        </a>
+                       </div> 
+                       <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/mine.png"/>
+                            </g>
+                        </svg>
+                       </div>
+                       <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Shreya Singh </h1>
+                        <h3 class="home__subtitle">Learner & Observer</h3>
+                        <p class="home__description">As an aspiring software engineer with proficiency in multiple programming languages
+                             and experience in web development, I am well-equipped to tackle diverse challenges and deliver high-quality solutions.
+
+                        </p>
+                        <a href="#contactme" class="button button--flex">
+                            Contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
+                       </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i> 
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">A highly motivated student with a strong passion for technology and a diverse range of 
+                            technological skills. Throughout my journey, I have developed proficiency in various programming languages, frameworks, 
+                            and tools, enabling me to take on a wide variety of projects. I thrive on continuous learning and adaptability, 
+                            recognizing the importance of staying up-to-date in the ever-evolving field of technology. With my dedication to 
+                            personal and professional growth, I am confident that my passion for learning and my versatile skill set will make me a 
+                            valuable asset in any technology-driven endeavor. <br></p>
+                        <div class="about__info">
+                            <div>
+                              <span class="about__info-title">03+</span>  
+                              <span class="about__info-name">Completed <br> project</span>
+
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">02</span>  
+                                <span class="about__info-name">Work Experiences <br> Internship & Summer Of Code<br> at Hamari Pehchan NGO<br> and Let's Grow More repectively.</span>
+                                
+                              </div>
+
+                              <div>
+                                <span class="about__info-title">03+</span>  
+                                <span class="about__info-name">Completed<br> Certifications</span>
+                                
+                              </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/shreya_resume.pdf" class="button button--flex">
+                               Download CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+               <h2 class ="section__title">Skills</h2>
+               <span class="section__subtitle">My technical level</span>
+               <div class="skills__container container grid">
+                <div>
+                    <!---skills-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">Applied on full-fledged projects</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__html"></span> 
+                            </div>
+                           </div> 
+
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__css"></span> 
+                            </div>
+                           </div> 
+
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__js"></span> 
+                            </div>
+                           </div> 
+
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">AJAX</h3>
+                                <span class="skills__number">30%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__ajax"></span> 
+                            </div>
+                           </div> 
+                        </div>
+                    </div>
+                    <!----skills2-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-database skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Backend Developer</h1>
+                                <span class="skills__subtitle">Applied on full-fledged projects</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">phpMyAdmin</h3>
+                                <span class="skills__number">95%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__php"></span> 
+                            </div>
+                           </div> 
+
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MySQL</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__html"></span> 
+                            </div>
+                           </div> 
+
+                           <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">ASP.NET</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                               <span class="skills__percentage skills__html"></span> 
+                            </div>
+                           </div> 
+
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>
+                 <!---skills3-->  
+                 <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-programming-language skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Programming Languages</h1>
+                            <span class="skills__subtitle">Gained knowledge on my educational journey</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                       <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">C</h3>
+                            <span class="skills__number">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__css"></span> 
+                        </div>
+                       </div> 
+
+                       <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">C++</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__html"></span> 
+                        </div>
+                       </div> 
+
+                       <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">JAVA</h3>
+                            <span class="skills__number">60%</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__java"></span> 
+                        </div>
+                       </div> 
+
+                       <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">PHP</h3>
+                            <span class="skills__number">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__css"></span> 
+                        </div>
+                       </div> 
+
+                       <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">C#.NET</h3>
+                            <span class="skills__number">60%</span>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage skills__java"></span> 
+                        </div>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+            <div> 
+                </div>
+               </div>
+
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            School
+                        </div>
+
+                        <div class="qualification__button button--flex qualification__active" data-target='#college'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            College
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!----qualification content1-->
+                        <div class ="qualification__content qualification__active" data-content id="education">
+                            <!----qualification 1-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Secondary School</h3>
+                                    <span class="qualification__subtitle">St. Michael's Convent School<br> with 87.4%</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2016-2017
+                                    </div>
+                                </div>
+
+                                <div>
+                                  <span class="qualification__rounder"></span> 
+                                  <span class="qualification__line"></span>  
+                                </div>
+                            </div>
+
+                            <!----qualification 2-->
+                            <div class="qualification__data">
+                                 <div>
+                                    <h3 class="qualification__title">Senior Secondary School</h3>
+                                    <span class="qualification__subtitle">St. Michael's Convent School<br> with 77.4%</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018-2019
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span> 
+                                    <span class="qualification__line"></span>  
+                                  </div>
+                                
+                            </div>
+
+                            
+                        </div>
+
+                        <!----qualification content2-->
+                        <div class ="qualification__content" data-content id="college">
+                            <!----qualification 1-->
+                            <div class="qualification__data">
+                                <div></div>
+    
+                                    <div>
+                                        <span class="qualification__rounder"></span> 
+                                        <span class="qualification__line"></span>  
+                                      </div>
+                                
+                                <div>
+                                    <h3 class="qualification__title">Bachelor's in Computer Applications</h3>
+                                    <span class="qualification__subtitle">Banasthali Vidyapith<br> with an overall CGPA of 9.37.</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019-2022
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <!----qualification 2-->
+                            <div class="qualification__data">
+                                <div></div>
+    
+                                    <div>
+                                        <span class="qualification__rounder"></span> 
+                                        <span class="qualification__line"></span>  
+                                      </div>
+                                <div>
+                                    <h3 class="qualification__title">Master's in Computer Applications</h3>
+                                    <span class="qualification__subtitle">Banasthali Vidyapith<br> with an CGPA of 9.59 upto first semester.</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022-2024
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== AWARDS AND ACTIVITIES ====================-->
+            <section class="services section" id="services">
+              <h2 class="section__title">Awards & Activities</h2>  
+              <span class="section__subtitle">"Achievements and Leadership in Education"</span>
+              <div class="services__container container grid">
+                <!---services 1-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-medal services__icon"></i>
+                        <h3 class="services__title">School-Level Accolades <br>and Achievements </h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon "></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">School-Level Accolades <br>and Achievements </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                              <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>District-Level Speech Competition Victory</p>
+                            </li> 
+                            
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>School-Level Mathematics Quiz Triumph</p>
+                            </li> 
+
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>First-Place Victories in Slogan Writing and Debate Competitions</p>
+                            </li> 
+
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>Multi-Talented Champion: First-Place Wins in Singing, Dance and other Co-Curricular Activities</p>
+                            </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!---services 2-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-shield-check services__icon"></i> 
+                        <h3 class="services__title">Leadership Roles and Initiatives<br> in School and College</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon "></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Leadership Roles and Initiatives<br> in School and College </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                              <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>School-Level Leadership: House Captain of St. Joseph House (2018-2019)</p>
+                            </li> 
+                            
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>Technical Subcore: College's Biggest Technical Fest - "Mayukh"</p>
+                            </li> 
+
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>Event Management and Coordination: Contributed to Hackathon, 25+ Technical and Non-Technical Events for Mayukh</p>
+                            </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!---services 3-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-pen services__icon"></i> 
+                        <h3 class="services__title">Others <br></h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon "></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Others <br> </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                              <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>National Webinar Participation: Exploring the Role of Statistics in Advancing Data Science</p>
+                            </li> 
+                            
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>National Webinar Participation: Safeguarding the Health and Rights of Women and Girls Amidst Covid-19 - Insights from Banasthali Vidyapith</p>
+                            </li> 
+
+                            <li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>Strong communicator, team player, problem solver, adaptable, creative, and diligent worker</p>
+                            </li> 
+
+                            <!---<li class="services__modal-services">
+                                <i class="uil uil-check-circle services__modal-icon"></i>
+                              <p>develop</p>
+                            </li> --->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+               <h2 class="section__title">Portfolio</h2>
+               <span class="section__subtitle">Most recent work</span>
+
+               <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!---portfolio 1-->
+                    <div class="portfolio__content grid swiper-slide ">
+                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">ShopBuddy</h3>
+                            <p class="portfolio__description">An E-commerce Website Development with Admin Panel using HTML, CSS, Bootstrap, 
+                                JavaScript, AJAX to make it dynamic and MySQL/PHPMyAdmin Backend, ensuring a seamless and secure online shopping 
+                                experience for users.</p>
+                            <a href="https://github.com/Shreya615/ShopBuddy" class="button button--flex button--small portfolio__button">
+                              Source Code  
+                              <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!---portfolio 2-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio22.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Visionnaire</h3>
+                            <p class="portfolio__description">A social media website (facebook clone) using HTML, CSS as frontend,
+                                 AJAX for making it dynamic with PHP and MySQL as the backend which refers to the means of interactions 
+                                 among people in which they create, share, and/or exchange information and ideas in virtual communities and networks.</p>
+                            <a href="https://github.com/Shreya615/Visionnaire" class="button button--flex button--small portfolio__button">
+                              Source Code  
+                              <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!---portfolio 3-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">WebTech</h3>
+                            <p class="portfolio__description">A desktop-based quiz application that utilizes Java AWT and Swing for its frontend interface,
+                                 providing a visually appealing and interactive user experience and MySQL as the backend for registration, login and feedback functionalities.
+                                 This application efficiently stores and manages quiz questions, user responses, and scoring data.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                              Source Code  
+                              <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!---add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                    
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!---add pagination-->
+                <div class="swiper-pagination"></div>
+               </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                   <div class="project__container container grid">
+                    <h2 class="project__title">Let's connect and excel!</h2>
+                    <p class="project__description">Eager student with fresh perspectives, contributing to team success.</p>
+                    <a href="#contactme" class="button button--flex button--white">
+                        Contact 
+                        <i class="uil uil-message project__icon button__icon"></i>
+                    </a>
+                   </div>
+                   <img src="assets/img/project.png" alt="" class="project__img">
+                </div>
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contactme">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+                 <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                               <h3 class="contact__title">Call Me</h3> 
+                               <span class="contact__subtitle">999-777-666</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                               <h3 class="contact__title">Email</h3> 
+                               <span class="contact__subtitle">ssshreyasingh615@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                               <h3 class="contact__title">Location</h3> 
+                               <span class="contact__subtitle">Lucknow</span>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                           <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                           </div> 
+    
+                           <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                           </div> 
+                        </div>
+    
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Subject of the message</label>
+                            <input type="text" class="contact__input">
+                        </div> 
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                           </div> 
+    
+                           <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                           </div>
+                     </form>
+                    </div>
+            </section>
+             
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Shreya</h1>
+                        <span class="footer__subtitle">frontend developer</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                           <a href="#services" class="footer__link">Services</a> 
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a> 
+                         </li>
+                         <li>
+                            <a href="#contact" class="footer__link">Contactme</a> 
+                         </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.instagram.com/shreya_singh615/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+
+                        </a>
+
+                        <a href="https://twitter.com/shreyas37594404" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter"></i>
+                            
+                        </a>
+
+                        
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Shreya Singh. All rights reserved</p>
+            </div>
+         
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
